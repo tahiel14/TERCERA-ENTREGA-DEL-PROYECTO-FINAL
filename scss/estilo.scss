@@ -1,0 +1,227 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+main{
+    color: white;
+}
+li{
+    float: left;
+    text-decoration: none;
+    display: flex;
+    padding: 5px 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+
+.fondo_presentacion{
+    background-image: url(./Multimedia/fondo_principal.jpg);
+}
+
+
+.Logo{
+    display: flex;
+    float: left;
+    .Logo-img{
+        float: left;
+        height: 100px;
+        display: flex;
+        margin-right: 15px;
+        margin-left: 25px;
+    }
+}
+ .titulo1{
+    display: flex;
+    color: white;
+    font-family: 'Send Flowers', cursive;}
+
+    .menu li{
+        display: inline-block;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        .menu li a{
+            text-decoration: none;
+            display: inline-block;
+            color: white;
+            .menu &:hover{
+                background-color: blue;
+                border-radius: 20%;
+                .menu &:hover{
+                    color: red;
+                }
+            }   
+        }
+    }
+    .Presentacion{
+        color: white;
+        height: 50vh;
+        margin: 10%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 100px;
+        transition: all 2s ease;
+    }
+    .Presentacion_inicio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .Presentacion:hover{
+            width: 1000px;
+            background-color: blue;
+        }
+    }
+
+
+    .Servicios{
+        font-family: 'Send Flowers', cursive;
+    }
+    img.cortes{
+        opacity: .5;
+        border: 2px double rgb(97, 96, 96);
+        img.cortes:hover{
+            opacity: 1;
+            border: solid white 2px;
+        }
+    }
+    
+
+    .QuienesSomos{
+        font-family: 'Send Flowers', cursive;
+    }
+    .Parr__nosotros img{
+        width: 300px;
+        float: left;
+        margin-right: 20px;
+        margin-top: 10px;
+        .parrafo1{
+            font-size: 20px;
+        }
+    }
+    .imagen{
+        width: 100%;
+        .imagen img{
+            width: 100%;
+        }
+    }
+    .galeria{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: .5rem;
+        row-gap: .5rem;
+    }
+    @media (min-width:100px){
+        .galeria{
+            grid-template-columns: repeat(1,1fr);
+        }   
+    }
+    @media (min-width:520px){
+        .galeria{
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    @media (min-width:728px){
+        .galeria{
+            grid-template-columns: repeat(3,1fr);
+        }
+    }
+    @media (min-width:1024px){
+        .galeria{
+            grid-template-columns: repeat(4,1fr);
+        }
+    }
+    .card-text{
+        color: black;
+    }
+
+
+    .Fondo2{
+        background-image: url(./Multimedia/fondo.jpg);
+        .Contactos1{
+            font-family: 'Send Flowers', cursive;
+            background-image: url(./Multimedia/fondo\ bar.jpg);
+        }
+    }
+    .form1{ 
+        color: white;
+        .form2{
+            color: white;
+            .formulario{
+                color: white;
+            }
+        }
+      }
+
+
+
+      footer{
+        width: 100%;
+        padding: 10px 0px;
+        background-color: rgb(255, 255, 255);
+    }
+    .container__footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+
+        .box__footer{
+            display: flex;
+            flex-direction: column;
+            padding: 40px;
+
+            .box__footer .terms{
+                max-width: 350px;
+                margin-top: 20px;
+                font-weight: 500;
+                color: #7a7a7a;
+                font-size: 18px;
+                .box__footer .h2__footer{
+                    margin-bottom: 20px;
+                    color: #343434;
+                    font-weight: 700;
+                    .box__footer a{
+                        margin: 10px;
+                        color: #7a7a7a;
+                        font-weight: 600;
+                        .box__footer a:hover{
+                            opacity: 0.8;
+                            .box__footer a .fab {
+                                font-size: 40px;
+                            }    
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .box__copyright{
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+        padding: 0px 40px;
+
+        .box__copyright p{
+            margin-top: 20px;
+            color: #7a7a7a;
+
+            .box__copyright hr{
+                border: none;
+                height:  1px;
+                background-color: #7a7a7a;
+            }
+        } 
+    }
